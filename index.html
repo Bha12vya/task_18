@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .md {
+        background-color: rgb(145, 104, 104);
+         padding: 20px; 
+        display: grid;
+        grid-template-areas:
+          "item1 item2 item3"
+          "item4 item6 item6"
+          "item5 item6 item6";
+        grid-template-rows: 50px 150px 100px;
+        gap: 5px;
+        border-radius: 20px;
+        flex-wrap: wrap;
+        width: 100vw;
+        /* width: 300px; */
+        
+      }
+      .item1 {
+        background-color: aqua;
+        grid-area: item1;
+      }
+      .item2 {
+        background-color: white;
+        grid-area: item2;
+      }
+      .item3 {
+        background-color: gold;
+        grid-area: item3;
+      }
+      .item4 {
+        background-color: green;
+        grid-area: item4;
+      }
+      .item5 {
+        background-color: blueviolet;
+        grid-area: item5;
+      }
+      .item6 {
+        background-color: chartreuse;
+        grid-area: item6;
+        
+      }
+      .gd {
+        background-color: rgb(144, 106, 106);
+         padding: 20px; 
+        display: grid;
+        grid-template-areas:
+        "one two two three"
+        "one four five six"
+        "one seven eight six";
+        grid-template-rows: 100px 100px 100px;
+        gap: 5px;
+        border-radius: 20px;
+        width: 100vw;
+        /* width: 300px; */
+      }
+      .one {
+        background-color: aqua;
+        grid-area: one;
+        
+      }
+      .two {
+        background-color: blue;
+        grid-area: two;
+        
+      }
+      .three {
+        background-color: white;
+        grid-area: three;
+        
+      }
+      .four {
+        background-color: green;
+        grid-area: four;
+       
+      }
+      .five {
+        background-color: gold;
+        grid-area: five;
+        
+      }
+      .six {
+        background-color: chartreuse;
+        grid-area: six;
+      }
+      .seven {
+        background-color: deeppink;
+        grid-area: seven;
+      }
+      .eight {
+        background-color: blueviolet;
+        grid-area: eight;
+      }
+      .cd{
+        background-color: rgb(135, 101, 101);
+        display: grid;
+         padding: 20px; 
+        grid-template-areas:
+        "on tw tw th fo fi fi si"
+        "se ei ei ei fo fi fi si"
+       ;
+        grid-template-rows: 60px 100px ;
+        gap: 5px;
+        border-radius: 20px;
+        flex-wrap: wrap;
+        width: 100vw;
+        /* width: 300px; */
+      }
+      .on{
+        background-color: aqua;
+       grid-area: on; 
+      }
+      .tw{
+        background-color: yellow;
+        grid-area: tw;
+      }
+      .th{
+        background-color: blue;
+      grid-area: th;
+      }
+      .fo{
+        background-color: green;
+        grid-area: fo;
+      }
+      .fi{
+        background-color: brown;
+        grid-area: fi;
+      
+      }
+      .si{
+        background-color: chartreuse;
+        grid-area: si;
+
+      }
+      .se{
+        background-color: darkorange;
+        grid-area: se;
+      }
+      .ei{
+        background-color: white;
+        grid-area: ei;
+      }
+       
+    </style>
+  </head>
+  <body>
+    <div class="md">
+      <div class="item1">item1</div>
+      <div class="item2">item2</div>
+      <div class="item3">item3</div>
+      <div class="item4">item4</div>
+      <div class="item5">item5</div>
+      <div class="item6">item6</div>
+    </div>
+    <br /><br />
+
+    <div class="gd">
+      <div class="one">one</div>
+      <div class="two">two</div>
+      <div class="three">three</div>
+      <div class="four">four</div>
+      <div class="five">five</div>
+      <div class="six">six</div>
+      <div class="seven">seven</div>
+      <div class="eight">eight</div>
+    </div><br><br>
+
+    <div class="cd">
+      <div class="on">one</div>
+      <div class="tw">two</div>
+      <div class="th">three</div>
+      <div class="fo">four</div>
+      <div class="fi">five</div>
+      <div class="si">six</div>
+      <div class="se">seven</div>
+      <div class="ei">eight</div>
+    </div>
+  </body>
+</html>
